@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lng": 33.427362,
+        "lat": -38.383494
+    },
+    "accuracy": 50,
+    "name": "current address",
+    "phone_number": "9994356366",
+    "types": [
+        "beauty parlour",
+        "pharmacy"
+    ],
+    "website": "http://google.com",
+    "language": "Telugu",
+    "address": "Yendada,Vizag"
+}
+HTTP/1.1 200 OK
+Date: Mon, 31 May 2021 14:03:38 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "82f7d5d6c02c21fc66b5beb186d2d9ec",
+    "scope": "APP",
+    "reference": "5fd5db0a3d109f44e5e270f55e1921595fd5db0a3d109f44e5e270f55e192159",
+    "id": "5fd5db0a3d109f44e5e270f55e192159"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=82f7d5d6c02c21fc66b5beb186d2d9ec
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=82f7d5d6c02c21fc66b5beb186d2d9ec
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 31 May 2021 14:03:39 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 243
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "current address",
+    "phone_number": "9994356366",
+    "address": "Yendada,Vizag",
+    "types": "beauty parlour,pharmacy",
+    "website": "http://google.com",
+    "language": "Telugu"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lng": 33.427362,
+        "lat": -38.383494
+    },
+    "accuracy": 50,
+    "name": "relative address",
+    "phone_number": "9912208626",
+    "types": [
+        "beauty parlour",
+        "pharmacy"
+    ],
+    "website": "http://google.com",
+    "language": "Telugu",
+    "address": "Yendada,Vizag"
+}
+HTTP/1.1 200 OK
+Date: Mon, 31 May 2021 14:03:41 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ca8ee280474ef0d4a1bb7bb661cf61c8",
+    "scope": "APP",
+    "reference": "549474b4c9670ca7420b1f6f0512477b549474b4c9670ca7420b1f6f0512477b",
+    "id": "549474b4c9670ca7420b1f6f0512477b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ca8ee280474ef0d4a1bb7bb661cf61c8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ca8ee280474ef0d4a1bb7bb661cf61c8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 31 May 2021 14:03:41 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 244
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "relative address",
+    "phone_number": "9912208626",
+    "address": "Yendada,Vizag",
+    "types": "beauty parlour,pharmacy",
+    "website": "http://google.com",
+    "language": "Telugu"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "ca8ee280474ef0d4a1bb7bb661cf61c8"
+}
+HTTP/1.1 200 OK
+Date: Mon, 31 May 2021 14:03:43 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

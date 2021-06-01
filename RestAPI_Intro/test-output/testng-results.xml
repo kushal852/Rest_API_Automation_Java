@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2963" started-at="2021-05-23T11:11:19Z" finished-at="2021-05-23T11:11:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2963" started-at="2021-05-23T11:11:19Z" finished-at="2021-05-23T11:11:22Z">
+      <class name="Book_API">
+        <test-method status="PASS" signature="add_book(java.lang.String, java.lang.String)[pri:0, instance:Book_API@6b143ee9]" name="add_book" duration-ms="2147" started-at="2021-05-23T16:41:19Z" data-provider="get_book_details" finished-at="2021-05-23T16:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaqwewq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6543782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+        <test-method status="PASS" signature="add_book(java.lang.String, java.lang.String)[pri:0, instance:Book_API@6b143ee9]" name="add_book" duration-ms="247" started-at="2021-05-23T16:41:21Z" data-provider="get_book_details" finished-at="2021-05-23T16:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwewqwe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9675438]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+        <test-method status="PASS" signature="delete_book(java.lang.String, java.lang.String)[pri:0, instance:Book_API@6b143ee9]" name="delete_book" duration-ms="259" started-at="2021-05-23T16:41:21Z" data-provider="get_book_details" finished-at="2021-05-23T16:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaqwewq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6543782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_book -->
+        <test-method status="PASS" signature="delete_book(java.lang.String, java.lang.String)[pri:0, instance:Book_API@6b143ee9]" name="delete_book" duration-ms="289" started-at="2021-05-23T16:41:22Z" data-provider="get_book_details" finished-at="2021-05-23T16:41:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwewqwe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9675438]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_book -->
+      </class> <!-- Book_API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

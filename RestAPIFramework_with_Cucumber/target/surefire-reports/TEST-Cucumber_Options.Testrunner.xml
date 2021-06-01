@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="0" name="Cucumber_Options.Testrunner" time="13.595" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Regression"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="jdk.vendor.version" value="Zulu 8.54.0.21-CA-win64"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\91999\eclipse-workspace\RestAPIFramework_with_Cucumber"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\91999\eclipse-workspace\RestAPIFramework_with_Cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\91999\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1/bin;C:\Program Files\Zulu\zulu-8/bin;C:\Program Files\Zulu\zulu-8/bin;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Zulu\zulu-8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\91999\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\91999\AppData\Local\Programs\Python\Python38-32\;C:\Users\91999\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\91999"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="91999"/>
+    <property name="java.class.path" value="D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify -Dcucumber.options=--tags @Regression"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="D:\study\Selenium Java\JARS\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="Add Place payload with current address Telugu 9994356366" time="1.04"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="User calls  &quot;AddplaceAPI&quot; through &quot;POST&quot; HTTP Request" time="1.46"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="API call should be success with status code 200" time="0.003"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="&quot;status&quot; in response body should be &quot;OK&quot;" time="0.714"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="&quot;scope&quot; in response body should be &quot;APP&quot;" time="0.01"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="verify place_id created has the same name current address using &quot;GetplaceAPI&quot;" time="1.954"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="Verify whether place is added successfully through AddPostAPI" time="1.956"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="Add Place payload with relative address Telugu 9912208626" time="0.004"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="User calls  &quot;AddplaceAPI&quot; through &quot;POST&quot; HTTP Request" time="0.236"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="API call should be success with status code 200" time="0"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="&quot;status&quot; in response body should be &quot;OK&quot;" time="0.025"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="&quot;scope&quot; in response body should be &quot;APP&quot;" time="0.014"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="verify place_id created has the same name relative address using &quot;GetplaceAPI&quot;" time="1.98"/>
+  <testcase classname="Verify whether place is added successfully through AddPostAPI" name="Verify whether place is added successfully through AddPostAPI" time="1.98"/>
+  <testcase classname="Validating whether delete place API functionality is working" name="Delete Place payload" time="0.002"/>
+  <testcase classname="Validating whether delete place API functionality is working" name="User calls  &quot;DeleteplaceAPI&quot; through &quot;POST&quot; HTTP Request" time="2.167"/>
+  <testcase classname="Validating whether delete place API functionality is working" name="API call should be success with status code 200" time="0.001"/>
+  <testcase classname="Validating whether delete place API functionality is working" name="&quot;status&quot; in response body should be &quot;OK&quot;" time="0.024"/>
+  <testcase classname="Validating whether delete place API functionality is working" name="Validating whether delete place API functionality is working" time="0.025"/>
+</testsuite>

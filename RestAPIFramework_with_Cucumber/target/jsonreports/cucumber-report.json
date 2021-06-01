@@ -1,0 +1,418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-31T14:03:34.933Z",
+        "line": 15,
+        "name": "Verify whether place is added successfully through AddPostAPI",
+        "description": "",
+        "id": "validating-place-api-s;verify-whether-place-is-added-successfully-through-addpostapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1037000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add Place payload with current address Telugu 9994356366",
+            "match": {
+              "arguments": [
+                {
+                  "val": "current address",
+                  "offset": 23
+                },
+                {
+                  "val": "Telugu",
+                  "offset": 39
+                },
+                {
+                  "val": "9994356366",
+                  "offset": 46
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User calls  \"AddplaceAPI\" through \"POST\" HTTP Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddplaceAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.user_calls_through_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API call should be success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.api_call_should_be_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 715000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in response body should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.in_response_body_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in response body should be \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.in_response_body_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1955000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify place_id created has the same name current address using \"GetplaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "current address",
+                  "offset": 42
+                },
+                {
+                  "val": "GetplaceAPI",
+                  "offset": 65
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.verify_placeid_created_has_the_same_name_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-31T14:03:40.168Z",
+        "line": 16,
+        "name": "Verify whether place is added successfully through AddPostAPI",
+        "description": "",
+        "id": "validating-place-api-s;verify-whether-place-is-added-successfully-through-addpostapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add Place payload with relative address Telugu 9912208626",
+            "match": {
+              "arguments": [
+                {
+                  "val": "relative address",
+                  "offset": 23
+                },
+                {
+                  "val": "Telugu",
+                  "offset": 40
+                },
+                {
+                  "val": "9912208626",
+                  "offset": 47
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User calls  \"AddplaceAPI\" through \"POST\" HTTP Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddplaceAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.user_calls_through_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API call should be success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.api_call_should_be_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in response body should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.in_response_body_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in response body should be \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.in_response_body_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1979000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify place_id created has the same name relative address using \"GetplaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "relative address",
+                  "offset": 42
+                },
+                {
+                  "val": "GetplaceAPI",
+                  "offset": 66
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.verify_placeid_created_has_the_same_name_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-31T14:03:42.431Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definitions.hooks.before_scenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validating whether delete place API functionality is working",
+        "description": "",
+        "id": "validating-place-api-s;validating-whether-delete-place-api-functionality-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Delete Place payload",
+            "match": {
+              "location": "Step_Definitions.StepDefinition.delete_place_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2163000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User calls  \"DeleteplaceAPI\" through \"POST\" HTTP Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeleteplaceAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.user_calls_through_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "API call should be success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.api_call_should_be_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"status\" in response body should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Step_Definitions.StepDefinition.in_response_body_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API\u0027s",
+    "description": "",
+    "id": "validating-place-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/placevalidations.feature",
+    "tags": []
+  }
+]
