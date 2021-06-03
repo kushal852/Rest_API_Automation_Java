@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-03T13:45:03Z" name="Default suite" finished-at="2021-06-03T13:45:07Z" duration-ms="3693">
+    <groups>
+    </groups>
+    <test started-at="2021-06-03T13:45:03Z" name="Default test" finished-at="2021-06-03T13:45:07Z" duration-ms="3693">
+      <class name="Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap">
+        <test-method signature="add_book()[pri:0, instance:Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap@13b6aecc]" started-at="2021-06-03T19:15:03Z" name="add_book" finished-at="2021-06-03T19:15:07Z" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+      </class> <!-- Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

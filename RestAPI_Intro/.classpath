@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/zulu-8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/study/Rest API/JARS/rest-assured-4.3.0-dist/rest-assured-4.3.0.jar"/>
 	<classpathentry kind="lib" path="D:/study/Rest API/JARS/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/activation-1.1.1.jar"/>
@@ -33,5 +32,6 @@
 	<classpathentry kind="lib" path="D:/study/Rest API/JARS/Serialization and seserialization jars/jackson-annotations-2.12.2.jar"/>
 	<classpathentry kind="lib" path="D:/study/Rest API/JARS/Serialization and seserialization jars/jackson-core-2.12.2.jar"/>
 	<classpathentry kind="lib" path="D:/study/Rest API/JARS/Serialization and seserialization jars/jackson-databind-2.12.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
