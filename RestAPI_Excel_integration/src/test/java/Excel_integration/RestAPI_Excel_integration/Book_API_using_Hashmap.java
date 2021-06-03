@@ -48,7 +48,7 @@ public class Book_API_using_Hashmap {
     Assert.assertEquals(msg,"successfully added");
     */
 		Excel_Data_Drive_with_array excel_data = new Excel_Data_Drive_with_array();
-		ArrayList  data_from_xl =   excel_data.get_data("AddPlace", "RestAPI","C:\\Users\\91999\\OneDrive\\Desktop\\Test_Data.xlsx");
+		ArrayList  data_from_xl =   excel_data.get_data("AddPlace", "RestAPI","Test_Data.xlsx");
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		HashMap<String,Object> maptojson = new HashMap<String, Object>();
 		HashMap<String,Object> location_hasmap = new HashMap<String, Object>();
