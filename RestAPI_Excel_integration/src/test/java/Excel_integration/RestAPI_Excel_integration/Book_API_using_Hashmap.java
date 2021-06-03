@@ -2,19 +2,13 @@ package Excel_integration.RestAPI_Excel_integration;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import payload_files.payloads;
+
 
 
 
@@ -48,7 +42,7 @@ public class Book_API_using_Hashmap {
     Assert.assertEquals(msg,"successfully added");
     */
 		Excel_Data_Drive_with_array excel_data = new Excel_Data_Drive_with_array();
-		ArrayList  data_from_xl =   excel_data.get_data("AddPlace", "RestAPI","Test_Data.xlsx");
+		ArrayList<String>  data_from_xl =   excel_data.get_data("AddPlace", "RestAPI","Test_Data.xlsx");
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		HashMap<String,Object> maptojson = new HashMap<String, Object>();
 		HashMap<String,Object> location_hasmap = new HashMap<String, Object>();
