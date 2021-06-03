@@ -2,12 +2,12 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-03T14:12:37Z" name="Default suite" finished-at="2021-06-03T14:12:40Z" duration-ms="2889">
+  <suite started-at="2021-06-03T14:18:42Z" name="Default suite" finished-at="2021-06-03T14:18:45Z" duration-ms="2991">
     <groups>
     </groups>
-    <test started-at="2021-06-03T14:12:37Z" name="Default test" finished-at="2021-06-03T14:12:40Z" duration-ms="2889">
+    <test started-at="2021-06-03T14:18:42Z" name="Default test" finished-at="2021-06-03T14:18:45Z" duration-ms="2991">
       <class name="Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap">
-        <test-method signature="add_book()[pri:0, instance:Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap@13b6aecc]" started-at="2021-06-03T19:42:37Z" name="add_book" finished-at="2021-06-03T19:42:40Z" duration-ms="2878" status="PASS">
+        <test-method signature="add_book()[pri:0, instance:Excel_integration.RestAPI_Excel_integration.Book_API_using_Hashmap@13b6aecc]" started-at="2021-06-03T19:48:42Z" name="add_book" finished-at="2021-06-03T19:48:45Z" duration-ms="2980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_book -->

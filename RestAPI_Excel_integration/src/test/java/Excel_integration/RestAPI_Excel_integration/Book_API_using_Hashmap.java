@@ -46,23 +46,23 @@ public class Book_API_using_Hashmap {
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		HashMap<String,Object> maptojson = new HashMap<String, Object>();
 		HashMap<String,Object> location_hasmap = new HashMap<String, Object>();
-		location_hasmap.put("lat",data_from_xl.get(0));
-		location_hasmap.put("lng",data_from_xl.get(1));
+		location_hasmap.put("lat",data_from_xl.get(1));
+		location_hasmap.put("lng",data_from_xl.get(2));
 		// nested hashmap
 		maptojson.put("location", location_hasmap);
-		maptojson.put("accuracy", data_from_xl.get(2));
-		maptojson.put("name", data_from_xl.get(3));
-		maptojson.put("phone_number", data_from_xl.get(4));
-		maptojson.put("address", data_from_xl.get(5));
+		maptojson.put("accuracy", data_from_xl.get(3));
+		maptojson.put("name", data_from_xl.get(4));
+		maptojson.put("phone_number", data_from_xl.get(5));
+		maptojson.put("address", data_from_xl.get(6));
 		ArrayList<String> type_of_location = new ArrayList<String>();
-		Object type1 = data_from_xl.get(5);
+		Object type1 = data_from_xl.get(7);
 		type_of_location.add((String) type1);
-		type_of_location.add((String) data_from_xl.get(6));
+		type_of_location.add((String) data_from_xl.get(8));
 		//String[] type_of_location = {"beauty parlour","pharmacy"};
 		// sending arraylist into hashmap
 		maptojson.put("types", type_of_location);
-		maptojson.put("website", data_from_xl.get(7));
-		maptojson.put("language", data_from_xl.get(8));
+		maptojson.put("website", data_from_xl.get(9));
+		maptojson.put("language", data_from_xl.get(10));
 		System.out.println(maptojson);
 		
 		
